@@ -9,5 +9,4 @@ public class GlassFinderApplication {
     public static void main(String[] args) {
         SpringApplication.run(GlassFinderApplication.class, args);
     }
-
 }
