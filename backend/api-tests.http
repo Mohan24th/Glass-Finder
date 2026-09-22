@@ -1,0 +1,24 @@
+### Get all boxes
+GET http://localhost:8080/api/boxes
+
+
+### Search v20
+GET http://localhost:8080/api/boxes/search?model=v20
+
+
+### Search rm30
+GET http://localhost:8080/api/boxes/search?model=rm30
+
+
+### Create new box
+POST http://localhost:8080/api/boxes
+Content-Type: application/json
+
+{
+  "boxCode": "BOX005",
+  "models": [
+    "iphone_15",
+    "iphone_15_pro"
+  ],
+  "quantity": 10
+}
